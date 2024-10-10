@@ -1,5 +1,6 @@
 import websiteImg1 from '../assets/hotel_booking.webp';
 import websiteImg2 from '../assets/ecommerce-websites.jpg';
+import websiteImg3 from '../assets/png-transparent-checkmark-done-exam-list-pencil-todo-xomo-basics-icon-thumbnail.png'
 
 export default function Projects() {
 
@@ -7,13 +8,13 @@ export default function Projects() {
         projects : [
             {
                 image: websiteImg1,
-                description: 'Hotel Booking Website. Built with React and Bootstrap.',
-                link: 'https://github.com/VenkateshP-K/Hotel_booking_FE',
+                description: 'A Simple Hotel Booking Website Built with React and Bootstrap for frontend and Node and Express for backend and MongoDB for database.',
+                link: 'https://hotelbooking-demo.netlify.app/',
             },
             {
-                image: websiteImg1,
-                description: 'Hotel Booking Website. Built with Express and MongoDB',
-                link: 'https://github.com/jvlcode/food'
+                image: websiteImg3,
+                description: 'A Simple ToDo App Built with React and Bootstrap for frontend and Node and Express for backend and MongoDB for database',
+                link: 'https://simple-todo-vp.netlify.app/'
             },
             {
                 image: websiteImg2,
