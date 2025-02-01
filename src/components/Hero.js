@@ -6,7 +6,7 @@ export default function Hero() {
         subtitle: 'Full-stack developer',
         social: {
             github:'https://github.com/VenkateshP-K',
-            linkedin: 'https://www.linkedin.com/in/venkatesh-padmanaban-732115215/'
+            linkedin: 'https://www.linkedin.com/in/venkatesh-p-fsd'
         }
     }
 

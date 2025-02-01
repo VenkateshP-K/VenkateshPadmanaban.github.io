@@ -1,17 +1,18 @@
 import websiteImg1 from '../assets/hotel_booking.webp';
 import websiteImg2 from '../assets/library.png';
 import websiteImg3 from '../assets/png-transparent-checkmark-done-exam-list-pencil-todo-xomo-basics-icon-thumbnail.png'
+import websiteImg4 from '../assets/travelplannermockupwhitebackground_1_-10.webp'
 
 export default function Projects() {
 
     const config = {
         projects : [
             {
-                image: websiteImg1,
-                description: 'A Simple Hotel Booking Website Built with React and Bootstrap for frontend and Node and Express for backend and MongoDB for database.',
-                link: 'https://hotelbooking-demo.netlify.app/',
-                gitFe:'https://github.com/VenkateshP-K/Hotel_booking_FE',
-                gitBe:'https://github.com/VenkateshP-K/Hotel_booking_be'
+                image: websiteImg4,
+                description: 'A Simple Travel Planner App Built with React and Bootstrap for frontend and Node and Express for backend and MongoDB for database',
+                link: 'https://travel-planner-pk03.netlify.app/',
+                gitFe:'https://github.com/VenkateshP-K/Trip_Planner_FE',
+                gitBe:'https://github.com/VenkateshP-K/Trip_Planner_BE'
             },
             {
                 image: websiteImg3,
@@ -26,7 +27,14 @@ export default function Projects() {
                 link: 'https://library-management-pk.netlify.app/',
                 gitFe:'https://github.com/VenkateshP-K/library_management_FE',
                 gitBe:'https://github.com/VenkateshP-K/library_management_system_BE'
-            }
+            },
+            {
+                image: websiteImg1,
+                description: 'A Simple Hotel Booking Website Built with React and Bootstrap for frontend and Node and Express for backend and MongoDB for database.',
+                link: 'https://hotelbooking-demo.netlify.app/',
+                gitFe:'https://github.com/VenkateshP-K/Hotel_booking_FE',
+                gitBe:'https://github.com/VenkateshP-K/Hotel_booking_be'
+            },
         ]
     }
 
