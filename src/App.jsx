@@ -1,4 +1,4 @@
-import './App.css';
+import './index.css';
 import About from './components/About';
 import Contact from './components/Contact';
 import Header from './components/Header';
@@ -20,3 +20,4 @@ function App() {
 }
 
 export default App;
+
